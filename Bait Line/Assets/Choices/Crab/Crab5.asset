@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f07b492de7fea134a971d9ffcb61104d, type: 3}
+  m_Name: Crab5
+  m_EditorClassIdentifier: 
+  messages:
+  - text: I am Dr. Gill, on Bait Line! Hello, caller?
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: What's uppp, Dr. Gill! It's Crab.
+    fish: 1
+    eventClip: {fileID: 0}
+  - text: Crab! How's life for you?
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: It's a bit tough, if I'm honest...
+    fish: 1
+    eventClip: {fileID: 0}
+  - text: I hurt myself in training and I can't improve on my figure for a while...
+    fish: 1
+    eventClip: {fileID: 8300000, guid: e662102e06fc8a94faf04476a2fb18ae, type: 3}
+  positiveChoice: Rest but don't neglect yourself.
+  positiveMessages:
+  - text: You can always stretch and improve flexibility in yourself, Crab.
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: Use the time at home to recover, but create a new you that can spring back!
+    fish: 0
+    eventClip: {fileID: 8300000, guid: 6b88c301aa5fb464495c2326521bf542, type: 3}
+  - text: Thanks, Gill. That's great advice. I can really count on you!
+    fish: 1
+    eventClip: {fileID: 8300000, guid: 3de64eba2e1a22a4394b9fa98e867dec, type: 3}
+  neutralChoice: Get better soon I guess.
+  neutralMessages:
+  - text: Get better soon, I guess. Sounds unfortunate.
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: Thanks, Gill... It is unfortunate...
+    fish: 1
+    eventClip: {fileID: 8300000, guid: 3de64eba2e1a22a4394b9fa98e867dec, type: 3}
+  negativeChoice: Pushing yourself that much is reckless.
+  negativeMessages:
+  - text: Why did you push yourself that hard?
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: Seems obvious you would sustain some kind of injury if you're being that
+      reckless.
+    fish: 0
+    eventClip: {fileID: 8300000, guid: e9a47798bef52774785172a05cc2aa92, type: 3}
+  - text: I'm trying my hardest, Gill. But if that's what you think...
+    fish: 1
+    eventClip: {fileID: 8300000, guid: 3de64eba2e1a22a4394b9fa98e867dec, type: 3}

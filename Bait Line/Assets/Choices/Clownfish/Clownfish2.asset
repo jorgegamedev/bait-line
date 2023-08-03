@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f07b492de7fea134a971d9ffcb61104d, type: 3}
+  m_Name: Clownfish2
+  m_EditorClassIdentifier: 
+  messages:
+  - text: Bait Line, Dr. Gill, Caller?
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: Clownfish here. Hey, Dr. Gill!
+    fish: 1
+    eventClip: {fileID: 0}
+  - text: What seems to be the problem?
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: The teacher is keeping me behind after school because I didn't do my homework!
+    fish: 1
+    eventClip: {fileID: 0}
+  positiveChoice: School sucks but there's something there to enjoy.
+  positiveMessages:
+  - text: School sucks dude. Why do you think I got this radio career?
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: Don't let that put you off.
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: These are the stepping stones to get you into something you enjoy later
+      in life.
+    fish: 0
+    eventClip: {fileID: 8300000, guid: 6b88c301aa5fb464495c2326521bf542, type: 3}
+  - text: Try and find what you enjoy in school!
+    fish: 0
+    eventClip: {fileID: 8300000, guid: 2ee0f56010b7cd642b02d412207c13ea, type: 3}
+  - text: Hey, Dr. Gill, those are great words!
+    fish: 1
+    eventClip: {fileID: 0}
+  - text: I'm in maths class at the moment but... I love my english classes and writing
+      poetry...
+    fish: 1
+    eventClip: {fileID: 8300000, guid: 6b88c301aa5fb464495c2326521bf542, type: 3}
+  - text: You've really given me something to think about.
+    fish: 1
+    eventClip: {fileID: 8300000, guid: 3de64eba2e1a22a4394b9fa98e867dec, type: 3}
+  neutralChoice: It will be over soon.
+  neutralMessages:
+  - text: Meh, detention isn't that long. You'll be out soon.
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: Maybe then you can give that homework another shot.
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: It's another hour... But I guess I'll have to carry on. Although there's
+      not much point, if I'm honest.
+    fish: 1
+    eventClip: {fileID: 8300000, guid: 3de64eba2e1a22a4394b9fa98e867dec, type: 3}
+  negativeChoice: In detention? You should be ashamed.
+  negativeMessages:
+  - text: I've never had a detention before. How do you think I got this job?
+    fish: 0
+    eventClip: {fileID: 8300000, guid: e9f5ff48bafa3a242aa5b8dcb74bb435, type: 3}
+  - text: You're just a hooligan, Clownfish.
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: If you can't do the time, don't do the crime. Get your act together!
+    fish: 0
+    eventClip: {fileID: 8300000, guid: e9a47798bef52774785172a05cc2aa92, type: 3}
+  - text: I thought you were cool, Dr. Gill. I guess you're just like them...
+    fish: 1
+    eventClip: {fileID: 8300000, guid: 3de64eba2e1a22a4394b9fa98e867dec, type: 3}

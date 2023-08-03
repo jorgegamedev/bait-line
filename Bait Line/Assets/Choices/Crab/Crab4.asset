@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f07b492de7fea134a971d9ffcb61104d, type: 3}
+  m_Name: Crab4
+  m_EditorClassIdentifier: 
+  messages:
+  - text: Your ever humble host, Dr. Gill... We have a caller. Hello!
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: Heyyy! Dr. Gill!
+    fish: 1
+    eventClip: {fileID: 0}
+  - text: Crab! What's the news?
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: Well, basically some clam stole my bench... What do I do, Dr. Gill? I'm
+      really angry...
+    fish: 1
+    eventClip: {fileID: 0}
+  positiveChoice: Let him have it!
+  positiveMessages:
+  - text: 'You have to let him have it! '
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: Like what? Hurting the clam? Or giving the bench to him?
+    fish: 1
+    eventClip: {fileID: 8300000, guid: e9f5ff48bafa3a242aa5b8dcb74bb435, type: 3}
+  - text: Just let the poor clam have it!
+    fish: 0
+    eventClip: {fileID: 8300000, guid: 2ee0f56010b7cd642b02d412207c13ea, type: 3}
+  - text: Ok, he can have it! Thanks, Dr. Gill! I made a new friend now and made the
+      little clam really happy!
+    fish: 1
+    eventClip: {fileID: 8300000, guid: 3de64eba2e1a22a4394b9fa98e867dec, type: 3}
+  neutralChoice: Stuff that happens, I guess.
+  neutralMessages:
+  - text: Sometimes the bench just gets taken. Just move on.
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: Eh... I guess so. I've got other stuff to take care of anyway.
+    fish: 1
+    eventClip: {fileID: 8300000, guid: 3de64eba2e1a22a4394b9fa98e867dec, type: 3}
+  negativeChoice: LET HIM HAVE IT!
+  negativeMessages:
+  - text: LET HIM HAVE IT!
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: Like what? In giving the bench or hurting the poor clam?
+    fish: 1
+    eventClip: {fileID: 8300000, guid: e9f5ff48bafa3a242aa5b8dcb74bb435, type: 3}
+  - text: He took your bench! Let him have it!!!
+    fish: 0
+    eventClip: {fileID: 8300000, guid: e9a47798bef52774785172a05cc2aa92, type: 3}
+  - text: That's mean, Dr. Gill, that poor clam... I can't bear to do it...
+    fish: 1
+    eventClip: {fileID: 8300000, guid: 3de64eba2e1a22a4394b9fa98e867dec, type: 3}

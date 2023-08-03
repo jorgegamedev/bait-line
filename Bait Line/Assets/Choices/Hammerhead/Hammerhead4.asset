@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f07b492de7fea134a971d9ffcb61104d, type: 3}
+  m_Name: Hammerhead4
+  m_EditorClassIdentifier: 
+  messages:
+  - text: We have a fish on the line. I'm Dr. Gill! Hello!
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: Hey, Dr. Gill...
+    fish: 1
+    eventClip: {fileID: 0}
+  - text: What seems to be your problem, chap?
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: I haven't had a card yet... And it's my birthday...
+    fish: 1
+    eventClip: {fileID: 8300000, guid: e662102e06fc8a94faf04476a2fb18ae, type: 3}
+  positiveChoice: I'll send you a card!
+  positiveMessages:
+  - text: Happy Birthday to you, Hammerhead!
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: And don't worry about the card my friend, I'll send you one on me. First
+      Splash Delivery!
+    fish: 0
+    eventClip: {fileID: 8300000, guid: 2ee0f56010b7cd642b02d412207c13ea, type: 3}
+  - text: Thanks, Dr. Gill! I'll cherish it forever!!
+    fish: 1
+    eventClip: {fileID: 8300000, guid: e662102e06fc8a94faf04476a2fb18ae, type: 3}
+  - text: Um... I just checked the calendar again... I just realised my birthday is
+      actually in 3 months...
+    fish: 1
+    eventClip: {fileID: 8300000, guid: 3de64eba2e1a22a4394b9fa98e867dec, type: 3}
+  neutralChoice: That's unfortunate.
+  neutralMessages:
+  - text: Sometimes, even I don't even get cards, my friend. I've got a huge bowl
+      of Bait Line mail...
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: My mail gets all sent to the same address. You'll get a birthday card next
+      year, Hammerhead. I'm sure!
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: Not even one... Sorry, Gill... I have to go...
+    fish: 1
+    eventClip: {fileID: 8300000, guid: 3de64eba2e1a22a4394b9fa98e867dec, type: 3}
+  negativeChoice: Maybe you're not cool enough.
+  negativeMessages:
+  - text: You're not cool enough to get cards on your birthday.
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: You need to be popular for them and you just... Aren't.
+    fish: 0
+    eventClip: {fileID: 8300000, guid: e9a47798bef52774785172a05cc2aa92, type: 3}
+  - text: But... It's my birthday...
+    fish: 1
+    eventClip: {fileID: 8300000, guid: 3de64eba2e1a22a4394b9fa98e867dec, type: 3}

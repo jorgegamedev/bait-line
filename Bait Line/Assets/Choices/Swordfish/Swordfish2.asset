@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f07b492de7fea134a971d9ffcb61104d, type: 3}
+  m_Name: Swordfish2
+  m_EditorClassIdentifier: 
+  messages:
+  - text: Hello Caller! This is Dr. Gill, from Bait Line.
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: Yeah... Hey, it's Swordfish.
+    fish: 1
+    eventClip: {fileID: 0}
+  - text: What seems to be the problem, Swordfish?
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: I think... Can I say this here...?
+    fish: 1
+    eventClip: {fileID: 8300000, guid: e9f5ff48bafa3a242aa5b8dcb74bb435, type: 3}
+  - text: This is your platform, Swordfish. Tell me your concerns as long as it doesn't
+      break Marine Life Law.
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: Yeah, I think someone is following me...
+    fish: 1
+    eventClip: {fileID: 0}
+  positiveChoice: Confront your fears.
+  positiveMessages:
+  - text: It's Ok, Swordfish. I'm here for you... Just turn around for just a glance.
+      It can't be that bad.
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: I'm looking back...
+    fish: 1
+    eventClip: {fileID: 0}
+  - text: Ahhh!
+    fish: 1
+    eventClip: {fileID: 0}
+  - text: Oh, hi mum! And you brought cookies nice!
+    fish: 1
+    eventClip: {fileID: 8300000, guid: ede7c1598348ae048be1faeada993e43, type: 3}
+  - text: Thanks, Dr. Gill! I confronted my fears and got cookies!
+    fish: 1
+    eventClip: {fileID: 8300000, guid: 3de64eba2e1a22a4394b9fa98e867dec, type: 3}
+  neutralChoice: It's probably nothing.
+  neutralMessages:
+  - text: It's probably nothing, Swordfish. I wouldn't put too much thought into it!
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: But... It is something, uh... *gulp*...
+    fish: 1
+    eventClip: {fileID: 8300000, guid: 3de64eba2e1a22a4394b9fa98e867dec, type: 3}
+  negativeChoice: It's a scary ghost!
+  negativeMessages:
+  - text: It's a big bad scary ghoooooost, Swordfish! And it's out to get your brains!
+    fish: 0
+    eventClip: {fileID: 8300000, guid: e9a47798bef52774785172a05cc2aa92, type: 3}
+  - text: Ahhhhhh! Dr. Gill! It really is a ghost! I can't move!
+    fish: 1
+    eventClip: {fileID: 8300000, guid: 3de64eba2e1a22a4394b9fa98e867dec, type: 3}

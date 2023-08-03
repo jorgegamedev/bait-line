@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f07b492de7fea134a971d9ffcb61104d, type: 3}
+  m_Name: Hammerhead5
+  m_EditorClassIdentifier: 
+  messages:
+  - text: Dr. Gill is here for you, Bait Line caller!
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: Dr. Gill. It's Hammerhead...
+    fish: 1
+    eventClip: {fileID: 0}
+  - text: Hammerhead! How are things going for you?
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: Yeah... I can't seem to get my computer to work.
+    fish: 1
+    eventClip: {fileID: 0}
+  - text: I don't know what I've done... I haven't hurt it... I wouldn't... My computer
+      is broken...
+    fish: 1
+    eventClip: {fileID: 8300000, guid: e662102e06fc8a94faf04476a2fb18ae, type: 3}
+  positiveChoice: Flipper it off and on.
+  positiveMessages:
+  - text: I've had the same problem! Turning it on and off works 100 percent of the
+      time all the time!
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: Wow, Gill! It's so easy! Thank you!
+    fish: 1
+    eventClip: {fileID: 8300000, guid: 3de64eba2e1a22a4394b9fa98e867dec, type: 3}
+  neutralChoice: I am not a computer fish.
+  neutralMessages:
+  - text: I am not a computer fish, I wouldn't know what to say. Sorry, Hammerhead.
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: Ohhh... Ok...
+    fish: 1
+    eventClip: {fileID: 8300000, guid: 3de64eba2e1a22a4394b9fa98e867dec, type: 3}
+  negativeChoice: 'You are too clumsy. '
+  negativeMessages:
+  - text: You are too clumsy, Hammerhead. It's your fault the computer got broken.
+    fish: 0
+    eventClip: {fileID: 8300000, guid: e9a47798bef52774785172a05cc2aa92, type: 3}
+  - text: That's not nice, Dr. Gill-
+    fish: 1
+    eventClip: {fileID: 8300000, guid: 3de64eba2e1a22a4394b9fa98e867dec, type: 3}

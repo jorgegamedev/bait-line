@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f07b492de7fea134a971d9ffcb61104d, type: 3}
+  m_Name: Octopus5
+  m_EditorClassIdentifier: 
+  messages:
+  - text: A caller! Welcome to Bait Line!
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: It's Octopus. Eeeek! Ew! It's coming closer!
+    fish: 1
+    eventClip: {fileID: 0}
+  - text: Octopus! Why did you call today?
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: I just saw this huge bug! Ewww! What should I do, Dr. Gill?
+    fish: 1
+    eventClip: {fileID: 0}
+  positiveChoice: It's probably just lost.
+  positiveMessages:
+  - text: It's probably just lost and looking for it's way home.
+    fish: 0
+    eventClip: {fileID: 8300000, guid: e662102e06fc8a94faf04476a2fb18ae, type: 3}
+  - text: Do you know where it came from?
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: Uh, well it's next to me, and is drawing on some paper to answer this...
+    fish: 1
+    eventClip: {fileID: 0}
+  - text: 'Oh... He''s the hotel inspector... '
+    fish: 1
+    eventClip: {fileID: 8300000, guid: ede7c1598348ae048be1faeada993e43, type: 3}
+  - text: That's awkward. Thank you, Dr. Gill!
+    fish: 1
+    eventClip: {fileID: 8300000, guid: 3de64eba2e1a22a4394b9fa98e867dec, type: 3}
+  neutralChoice: Leave it be.
+  neutralMessages:
+  - text: It's best to leave him be, if I'm honest.
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: But... What does it want?
+    fish: 1
+    eventClip: {fileID: 8300000, guid: 3de64eba2e1a22a4394b9fa98e867dec, type: 3}
+  negativeChoice: You're scared of bugs? Hahaha!
+  negativeMessages:
+  - text: You're scared of bugs? Hahahaha!
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: Totally, this one is really big too...
+    fish: 1
+    eventClip: {fileID: 0}
+  - text: Scaredy cat, scaredy cat, nananana! Hahahaha!
+    fish: 1
+    eventClip: {fileID: 8300000, guid: e9a47798bef52774785172a05cc2aa92, type: 3}
+  - text: 'Ugh. This is not the Dr. Gill I know. '
+    fish: 1
+    eventClip: {fileID: 8300000, guid: 3de64eba2e1a22a4394b9fa98e867dec, type: 3}

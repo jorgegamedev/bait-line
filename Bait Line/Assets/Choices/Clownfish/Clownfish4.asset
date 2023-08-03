@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f07b492de7fea134a971d9ffcb61104d, type: 3}
+  m_Name: Clownfish4
+  m_EditorClassIdentifier: 
+  messages:
+  - text: We have a caller! This is Dr. Gill speaking.
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: I'm Clownfish.
+    fish: 1
+    eventClip: {fileID: 0}
+  - text: Clownfish! What's tormenting you?
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: I bought a multiplayer game to play with one of my school friends but they
+      bailed out on me.
+    fish: 1
+    eventClip: {fileID: 0}
+  - text: Would you like to play with me instead, Dr. Gill?
+    fish: 1
+    eventClip: {fileID: 0}
+  positiveChoice: I'd love to join you!
+  positiveMessages:
+  - text: I love games! I'd be happy to join you on a couple of matches.
+    fish: 0
+    eventClip: {fileID: 8300000, guid: 2ee0f56010b7cd642b02d412207c13ea, type: 3}
+  - text: I'm not a noob either! I'm an avid gamer and I won't let our team down!
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: Wow, Dr. Gill! You're so cool! We're gonna own all those noobs!
+    fish: 1
+    eventClip: {fileID: 8300000, guid: 3de64eba2e1a22a4394b9fa98e867dec, type: 3}
+  neutralChoice: I'd like to join you, but...
+  neutralMessages:
+  - text: I've got radio to run. I'm super sorry, kid... I'm sure there are multiple
+      fish to play with in online lobbies, though!
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: I guess so... I better get on...
+    fish: 1
+    eventClip: {fileID: 8300000, guid: 3de64eba2e1a22a4394b9fa98e867dec, type: 3}
+  negativeChoice: You're a noob.
+  negativeMessages:
+  - text: I'm not playing with a noob. I'm an avid gamer and my l33t skills are no
+      match for you.
+    fish: 0
+    eventClip: {fileID: 8300000, guid: e9a47798bef52774785172a05cc2aa92, type: 3}
+  - text: Gee, Dr. Gill. That's pretty toxic of you, goodbye...
+    fish: 1
+    eventClip: {fileID: 8300000, guid: 3de64eba2e1a22a4394b9fa98e867dec, type: 3}

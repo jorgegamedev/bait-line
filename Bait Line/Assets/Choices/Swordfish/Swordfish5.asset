@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f07b492de7fea134a971d9ffcb61104d, type: 3}
+  m_Name: Swordfish5
+  m_EditorClassIdentifier: 
+  messages:
+  - text: You are here with me, Dr. Gill, on Bait Line! Hello!
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: Um, hi, Dr. Gill... It's, erm... Swordfish.
+    fish: 1
+    eventClip: {fileID: 0}
+  - text: What's up, Swordfish?
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: I want to join the fencing club... *gulp*. But what if they don't like me?
+    fish: 1
+    eventClip: {fileID: 8300000, guid: e662102e06fc8a94faf04476a2fb18ae, type: 3}
+  positiveChoice: You'd be great for it!
+  positiveMessages:
+  - text: Wow! What a great leap in character, Swordfish! It's incredibly rewarding
+      joining a club!
+    fish: 0
+    eventClip: {fileID: 8300000, guid: 2ee0f56010b7cd642b02d412207c13ea, type: 3}
+  - text: You've already done half the battle wanting to join. You're clearly enthusiastic
+      and you should do it!
+    fish: 0
+    eventClip: {fileID: 8300000, guid: 6b88c301aa5fb464495c2326521bf542, type: 3}
+  - text: Wow, Dr. Gill! I will, I will! Thank you!
+    fish: 1
+    eventClip: {fileID: 8300000, guid: 3de64eba2e1a22a4394b9fa98e867dec, type: 3}
+  neutralChoice: Do what's comfortable.
+  neutralMessages:
+  - text: Do what's comfortable for you, Swordfish.
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: Ok, I guess... But... I really want to join...
+    fish: 1
+    eventClip: {fileID: 0}
+  negativeChoice: You're not a fencer.
+  negativeMessages:
+  - text: You're not a fencer. You would just get yourself injured trying to be one,
+      Swordfish...
+    fish: 0
+    eventClip: {fileID: 8300000, guid: e9a47798bef52774785172a05cc2aa92, type: 3}
+  - text: I don't want to be injured...! I just... I won't join...
+    fish: 1
+    eventClip: {fileID: 8300000, guid: 3de64eba2e1a22a4394b9fa98e867dec, type: 3}

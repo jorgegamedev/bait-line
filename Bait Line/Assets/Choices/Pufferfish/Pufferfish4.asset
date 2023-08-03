@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f07b492de7fea134a971d9ffcb61104d, type: 3}
+  m_Name: Pufferfish4
+  m_EditorClassIdentifier: 
+  messages:
+  - text: Real Conversations, Real Fish, Dr. Gill.
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: Hey, bro. Pufferfish here...
+    fish: 1
+    eventClip: {fileID: 0}
+  - text: What's troubling you, Pufferfish? You seem down...
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: Yeah, G-Dawg. The other fish keep saying I'm not tough enough... It's cramping
+      my mood, bro.
+    fish: 1
+    eventClip: {fileID: 0}
+  positiveChoice: I wouldn't mess with you.
+  positiveMessages:
+  - text: Are you kidding? I wouldn't mess with you, Pufferfish. I wouldn't stand
+      a chance.
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: For real, G-Dawg? I'm pretty small...
+    fish: 1
+    eventClip: {fileID: 8300000, guid: e662102e06fc8a94faf04476a2fb18ae, type: 3}
+  - text: Yeah, mate. You can go poppin' at any point and those spikes are wicked
+      rad, yo'.
+    fish: 0
+    eventClip: {fileID: 8300000, guid: 2ee0f56010b7cd642b02d412207c13ea, type: 3}
+  - text: Yeah, I was telling them about the spikes but they must have forgot. G-Dawg,
+      thanks for the call! You're a real bro!
+    fish: 1
+    eventClip: {fileID: 8300000, guid: 3de64eba2e1a22a4394b9fa98e867dec, type: 3}
+  neutralChoice: Ignore them.
+  neutralMessages:
+  - text: Ignoring nasty stuff is usually the best thing to do. They get bored of
+      it in the end.
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: Yo. I guess... But my street cred...
+    fish: 1
+    eventClip: {fileID: 8300000, guid: 3de64eba2e1a22a4394b9fa98e867dec, type: 3}
+  negativeChoice: They've got a point.
+  negativeMessages:
+  - text: Knowing you, mate, they've got a point.
+    fish: 0
+    eventClip: {fileID: 8300000, guid: e9f5ff48bafa3a242aa5b8dcb74bb435, type: 3}
+  - text: What do y-
+    fish: 1
+    eventClip: {fileID: 0}
+  - text: You're small. Your figure and your spikes pose like little threat at all.
+    fish: 0
+    eventClip: {fileID: 8300000, guid: e9a47798bef52774785172a05cc2aa92, type: 3}
+  - text: Hey! They didn't mention the spikes! G-Dawg, you're nothing. I'm out.
+    fish: 1
+    eventClip: {fileID: 8300000, guid: 3de64eba2e1a22a4394b9fa98e867dec, type: 3}

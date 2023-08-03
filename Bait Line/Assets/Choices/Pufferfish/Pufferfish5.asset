@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f07b492de7fea134a971d9ffcb61104d, type: 3}
+  m_Name: Pufferfish5
+  m_EditorClassIdentifier: 
+  messages:
+  - text: We are live with Bait Line! Hello, caller?
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: It's Pufferfish, bro.
+    fish: 1
+    eventClip: {fileID: 0}
+  - text: What's going on, Pufferfish?
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: Yeah, well, G-Dawg, some fish is making sick remixes of my work and is getting
+      all my viewers!
+    fish: 1
+    eventClip: {fileID: 0}
+  positiveChoice: Collab, Bro?
+  positiveMessages:
+  - text: Collab, bro? Why not get in contact with them and do a collab with them?
+      It would be hella fresh.
+    fish: 0
+    eventClip: {fileID: 8300000, guid: 6b88c301aa5fb464495c2326521bf542, type: 3}
+  - text: G-Dawg, bro, that's poppin'! A collab?
+    fish: 1
+    eventClip: {fileID: 0}
+  - text: Yeah! You can get poppin' with that mystery fish and make some proper flows.
+    fish: 0
+    eventClip: {fileID: 8300000, guid: 2ee0f56010b7cd642b02d412207c13ea, type: 3}
+  - text: Aw yeah, G-Dawg! I'll drop them a DM now. Thanks, bro.
+    fish: 1
+    eventClip: {fileID: 8300000, guid: 3de64eba2e1a22a4394b9fa98e867dec, type: 3}
+  neutralChoice: Take them down.
+  neutralMessages:
+  - text: Just take them down, Pufferfish. You own the right to the music, afterall...
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: I guess... Their flows were sick. But it is my music...
+    fish: 1
+    eventClip: {fileID: 8300000, guid: 3de64eba2e1a22a4394b9fa98e867dec, type: 3}
+  negativeChoice: They're better than you? Just quit.
+  negativeMessages:
+  - text: They're better than you? Well you said it yourself. Just quit and do my
+      ears a favour.
+    fish: 0
+    eventClip: {fileID: 8300000, guid: e9a47798bef52774785172a05cc2aa92, type: 3}
+  - text: Whatever, man. I'm out.
+    fish: 1
+    eventClip: {fileID: 8300000, guid: 3de64eba2e1a22a4394b9fa98e867dec, type: 3}

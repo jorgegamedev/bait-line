@@ -1,0 +1,45 @@
+# Whales And Games Unity Git Ignore File
+# Last Updated 20-10-2022
+
+# Unity
+UnityGenerated/
+[Ll]ogs/
+[Ll]ibrary/
+[Oo]bj/
+[Tt]emp/
+[Bb]uilds/
+[Uu]serSettings/
+
+# Plugin Folders
+[Ee]xamples/
+[Dd]ocumentation/
+
+# Meta Data
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+sysinfo.txt
+
+# IDE Files
+.idea/
+.consulo/
+.gradle/
+ExportedObj/
+*.vs
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+
+# Builds
+*.exe
+*.apk

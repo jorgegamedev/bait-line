@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f07b492de7fea134a971d9ffcb61104d, type: 3}
+  m_Name: Pufferfish1
+  m_EditorClassIdentifier: 
+  messages:
+  - text: Someone has took the bait! Hello.
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: Yo, Dr. Gill. It's Pufferfish, ya old seadog! Haha!
+    fish: 1
+    eventClip: {fileID: 0}
+  - text: Pufferfish? How are you getting on?
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: Yeah, mate. I've been mixing music and it's literal fire, G-Dawg.
+    fish: 1
+    eventClip: {fileID: 0}
+  - text: '...G-Dawg?'
+    fish: 0
+    eventClip: {fileID: 8300000, guid: e9f5ff48bafa3a242aa5b8dcb74bb435, type: 3}
+  - text: Want to buy my mixtape?
+    fish: 1
+    eventClip: {fileID: 0}
+  positiveChoice: Sure, I'm cool like that.
+  positiveMessages:
+  - text: Yeah! I love to support local artists! I'm sure it's actually poppin'! You
+      know what I'm sayin'?
+    fish: 0
+    eventClip: {fileID: 8300000, guid: 2ee0f56010b7cd642b02d412207c13ea, type: 3}
+  - text: Wooooah, G-Dawg. You the player!
+    fish: 1
+    eventClip: {fileID: 8300000, guid: 3de64eba2e1a22a4394b9fa98e867dec, type: 3}
+  neutralChoice: I'll just listen.
+  neutralMessages:
+  - text: I'll have a listen. But I'm not buying it...
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: Oh... I see... That's fair enough... I guess.
+    fish: 1
+    eventClip: {fileID: 8300000, guid: 3de64eba2e1a22a4394b9fa98e867dec, type: 3}
+  negativeChoice: Belongs in the trash.
+  negativeMessages:
+  - text: Your mixtape is trash.
+    fish: 0
+    eventClip: {fileID: 8300000, guid: e9a47798bef52774785172a05cc2aa92, type: 3}
+  - text: Hey, Dr. Gill, or should I say, Dr. Fail? This is art and if you can't handle
+      it, I'm outta here.
+    fish: 1
+    eventClip: {fileID: 8300000, guid: 3de64eba2e1a22a4394b9fa98e867dec, type: 3}

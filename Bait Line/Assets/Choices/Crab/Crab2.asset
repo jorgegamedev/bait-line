@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f07b492de7fea134a971d9ffcb61104d, type: 3}
+  m_Name: Crab2
+  m_EditorClassIdentifier: 
+  messages:
+  - text: Dr. Gill, your Bait Line host! Hello!
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: Dr. Gill! My gym partner!
+    fish: 1
+    eventClip: {fileID: 0}
+  - text: Huh?
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: Yeah! I'm going to buy us two memberships to the gym upstream! Care to lend
+      me a claw? Or fin?
+    fish: 1
+    eventClip: {fileID: 0}
+  positiveChoice: Wow! Free gym membership?!
+  positiveMessages:
+  - text: Wow, Crab! I've been cutting it back when it comes to things such as my
+      health.
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: I think you've inspired me this time round, which is great news!
+    fish: 0
+    eventClip: {fileID: 8300000, guid: 2ee0f56010b7cd642b02d412207c13ea, type: 3}
+  - text: Yeah, Dr. Gill! This will be great! When you're off air, we'll train! This
+      is so exciting! Hehe!
+    fish: 1
+    eventClip: {fileID: 8300000, guid: 3de64eba2e1a22a4394b9fa98e867dec, type: 3}
+  neutralChoice: Thanks, but...
+  neutralMessages:
+  - text: Thanks for the offer, Crab. But I'm so committed to the station that I just
+      can't give up the time to make gains.
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: Ah, Ok. That's fine. I'll see you later, Dr. Gill.
+    fish: 1
+    eventClip: {fileID: 8300000, guid: 3de64eba2e1a22a4394b9fa98e867dec, type: 3}
+  negativeChoice: Puny crab.
+  negativeMessages:
+  - text: I'm not working out with a puny crab. I couldn't trust you to spot me.
+    fish: 0
+    eventClip: {fileID: 8300000, guid: e9a47798bef52774785172a05cc2aa92, type: 3}
+  - text: Hey! I'm not puny... That's an awful thing to say, Dr. Gill...
+    fish: 1
+    eventClip: {fileID: 8300000, guid: 3de64eba2e1a22a4394b9fa98e867dec, type: 3}

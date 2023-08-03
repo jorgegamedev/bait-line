@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f07b492de7fea134a971d9ffcb61104d, type: 3}
+  m_Name: Swordfish1
+  m_EditorClassIdentifier: 
+  messages:
+  - text: It's a me! Dr. Gill! On the line...
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: Uh... Oooh... Dr. Gill?
+    fish: 1
+    eventClip: {fileID: 0}
+  - text: Hello, Swordfish. Why are you worried?
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: I left the freezer running but... It doesn't have legs or wheels to run
+      on... Is it going to fight back?
+    fish: 1
+    eventClip: {fileID: 8300000, guid: e662102e06fc8a94faf04476a2fb18ae, type: 3}
+  positiveChoice: Freezers will be freezers!
+  positiveMessages:
+  - text: Freezers are freezers, Swordfish.
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: As long as you don't provoke it by entering it's domain and locking yourself
+      in it, it should be fine.
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: Even if you take and put stuff in it.
+    fish: 0
+    eventClip: {fileID: 8300000, guid: 6b88c301aa5fb464495c2326521bf542, type: 3}
+  - text: You're very knowledgeable on the fridge species, Dr. Gill... Thank you for
+      your valuable advice...
+    fish: 1
+    eventClip: {fileID: 8300000, guid: 3de64eba2e1a22a4394b9fa98e867dec, type: 3}
+  neutralChoice: It's just a freezer...
+  neutralMessages:
+  - text: It's just a freezer, Swordfish. Nothing really to worry about.
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: But what if it attacks... Hm...
+    fish: 1
+    eventClip: {fileID: 0}
+  negativeChoice: Hahahaha!
+  negativeMessages:
+  - text: Hahahaha! You're scared of a freezer! Is this some kind of joke?
+    fish: 0
+    eventClip: {fileID: 8300000, guid: e9a47798bef52774785172a05cc2aa92, type: 3}
+  - text: Um... Not really, Dr. Gill... You se-
+    fish: 1
+    eventClip: {fileID: 0}
+  - text: You're having me on, Swordfish. Wow... Haha!
+    fish: 0
+    eventClip: {fileID: 8300000, guid: e9a47798bef52774785172a05cc2aa92, type: 3}
+  - text: Ugh...
+    fish: 1
+    eventClip: {fileID: 8300000, guid: 3de64eba2e1a22a4394b9fa98e867dec, type: 3}

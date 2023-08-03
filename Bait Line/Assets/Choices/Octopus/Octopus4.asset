@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f07b492de7fea134a971d9ffcb61104d, type: 3}
+  m_Name: Octopus4
+  m_EditorClassIdentifier: 
+  messages:
+  - text: Dr. Gill, reporting for Bait Line.
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: Dr. Gill... It's moi, Octopus.
+    fish: 1
+    eventClip: {fileID: 0}
+  - text: What's your story? I'm happy to help wherever I can!
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: Well, Hmph. This other girl the other day stole my look. It makes me want
+      to scream!
+    fish: 1
+    eventClip: {fileID: 0}
+  positiveChoice: Could be your twin or biggest fan.
+  positiveMessages:
+  - text: Octopus, she may be this other girl... But what if... She was actually your
+      twin? Or your biggest fan!
+    fish: 0
+    eventClip: {fileID: 8300000, guid: 6b88c301aa5fb464495c2326521bf542, type: 3}
+  - text: Oh my... You know the way she wore it was spot on, and she was looking at
+      me adoringly! Come to think of it...
+    fish: 1
+    eventClip: {fileID: 0}
+  - text: I might meet up with her later... Thank you, Gill! You're a star!
+    fish: 1
+    eventClip: {fileID: 8300000, guid: 3de64eba2e1a22a4394b9fa98e867dec, type: 3}
+  neutralChoice: Probably 1 in a million chance.
+  neutralMessages:
+  - text: Probably just a 1 in a million chance that she wore exactly the same stuff
+      you did. Likely won't happen again.
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: Hm... But... Ah. Nevermind... I guess...
+    fish: 1
+    eventClip: {fileID: 8300000, guid: 3de64eba2e1a22a4394b9fa98e867dec, type: 3}
+  negativeChoice: She wore it better.
+  negativeMessages:
+  - text: In all honesty, toots, she probably wore it better if you spent all that
+      time looking at her.
+    fish: 0
+    eventClip: {fileID: 8300000, guid: e9f5ff48bafa3a242aa5b8dcb74bb435, type: 3}
+  - text: Toots? I'm through with you, Gill. Bye.
+    fish: 1
+    eventClip: {fileID: 8300000, guid: 3de64eba2e1a22a4394b9fa98e867dec, type: 3}

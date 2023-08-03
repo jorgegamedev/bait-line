@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f07b492de7fea134a971d9ffcb61104d, type: 3}
+  m_Name: Clownfish1
+  m_EditorClassIdentifier: 
+  messages:
+  - text: This is Bait Line, Dr. Gill... And you are?
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: Hi, Dr. Gill. I'm Clownfish.
+    fish: 1
+    eventClip: {fileID: 0}
+  - text: Clownfish! What's happening?
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: Everyone in the reef thinks I'm a joke... I want to be serious with them
+      but they never change...
+    fish: 1
+    eventClip: {fileID: 8300000, guid: e662102e06fc8a94faf04476a2fb18ae, type: 3}
+  positiveChoice: Don't be ashamed to be yourself.
+  positiveMessages:
+  - text: Don't be ashamed or conform to what those in the reef want you to be.
+    fish: 0
+    eventClip: {fileID: 8300000, guid: e662102e06fc8a94faf04476a2fb18ae, type: 3}
+  - text: Be youself! Be the change you want to see in the ocean! I hope this helps!
+    fish: 0
+    eventClip: {fileID: 8300000, guid: 2ee0f56010b7cd642b02d412207c13ea, type: 3}
+  - text: Thanks, Dr. Gill. You really touched me with what you said...
+    fish: 1
+    eventClip: {fileID: 0}
+  - text: I'm going to be a better fish from now on!
+    fish: 1
+    eventClip: {fileID: 8300000, guid: 3de64eba2e1a22a4394b9fa98e867dec, type: 3}
+  neutralChoice: Be more serious around them.
+  neutralMessages:
+  - text: They've got a point with you not being serious enough, Clownfish. You have
+      to change if you want to make friends.
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: I'm not very serious... Maybe I am doing something wrong... Ok...
+    fish: 1
+    eventClip: {fileID: 8300000, guid: 3de64eba2e1a22a4394b9fa98e867dec, type: 3}
+  negativeChoice: Hahahaha!
+  negativeMessages:
+  - text: Hahahaha! What is this? Hahahaha! Funny dude!
+    fish: 0
+    eventClip: {fileID: 8300000, guid: e9a47798bef52774785172a05cc2aa92, type: 3}
+  - text: Dr. Gill... I'-
+    fish: 1
+    eventClip: {fileID: 8300000, guid: e9f5ff48bafa3a242aa5b8dcb74bb435, type: 3}
+  - text: Hahahahahaha!
+    fish: 0
+    eventClip: {fileID: 8300000, guid: e9a47798bef52774785172a05cc2aa92, type: 3}
+  - text: Forget this...
+    fish: 1
+    eventClip: {fileID: 8300000, guid: 3de64eba2e1a22a4394b9fa98e867dec, type: 3}

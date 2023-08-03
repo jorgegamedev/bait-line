@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f07b492de7fea134a971d9ffcb61104d, type: 3}
+  m_Name: Hammerhead2
+  m_EditorClassIdentifier: 
+  messages:
+  - text: You're Baited! This is Dr. Gill. Welcome!
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: Hey. Hammerhead here...
+    fish: 1
+    eventClip: {fileID: 0}
+  - text: Hammerhead! What is troubling you today?
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: I basically ordered two pizzas... But I can't eat it all by myself... What
+      should I do... Do you want one?
+    fish: 1
+    eventClip: {fileID: 0}
+  positiveChoice: Free Pizza? Sure!
+  positiveMessages:
+  - text: Hammerhead, I love pizza! And I also love solving your problems!
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: I'd be honoured to have a slice of the action with you, sir!
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: Thanks, Dr. Gill! You're the best... I'll send it to you First Splash. Not
+      Sea Snail Mail!
+    fish: 1
+    eventClip: {fileID: 8300000, guid: 3de64eba2e1a22a4394b9fa98e867dec, type: 3}
+  neutralChoice: Save it for leftovers.
+  neutralMessages:
+  - text: That's a lot of pizza you have there! You could store and enjoy it later!
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: Ok... I wanted to share it with you... But... That's ok...
+    fish: 1
+    eventClip: {fileID: 8300000, guid: 3de64eba2e1a22a4394b9fa98e867dec, type: 3}
+  negativeChoice: I hate pizza.
+  negativeMessages:
+  - text: Why bother even calling with such a stupid question...
+    fish: 0
+    eventClip: {fileID: 8300000, guid: e9a47798bef52774785172a05cc2aa92, type: 3}
+  - text: But Dr. Gill I..-
+    fish: 1
+    eventClip: {fileID: 8300000, guid: 3de64eba2e1a22a4394b9fa98e867dec, type: 3}

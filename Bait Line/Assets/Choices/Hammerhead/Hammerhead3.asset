@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f07b492de7fea134a971d9ffcb61104d, type: 3}
+  m_Name: Hammerhead3
+  m_EditorClassIdentifier: 
+  messages:
+  - text: This is Bait Line. I am Dr. Gill... Welcome caller!
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: Hammerhead...
+    fish: 1
+    eventClip: {fileID: 0}
+  - text: What's going on, Hammerhead?
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: I keep bumping into things.
+    fish: 1
+    eventClip: {fileID: 0}
+  positiveChoice: Take it slow! Do some yoga!
+  positiveMessages:
+  - text: You should take a break, Hammerhead. You deserve it buddy!
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: Take a yoga class, loosen up yourself, and stretch out that negative energy.
+      You will feel so much better!
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: Gee... I've never done yoga before, Dr. Gill... But I think it might really
+      help me find my way. Thank you!
+    fish: 1
+    eventClip: {fileID: 8300000, guid: 3de64eba2e1a22a4394b9fa98e867dec, type: 3}
+  neutralChoice: You should be more careful. Stop rushing around.
+  neutralMessages:
+  - text: You should be more careful, Hammerhead. I care for you mate but rushing
+      around too much will mean you will bump into stuff.
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: I try my best... I try going slow but I still bump... I'll try harder...
+    fish: 1
+    eventClip: {fileID: 8300000, guid: 3de64eba2e1a22a4394b9fa98e867dec, type: 3}
+  negativeChoice: You have a big head. Deal with it.
+  negativeMessages:
+  - text: You're a hammerhead shark with a huge head. It doesn't surprise me.
+    fish: 0
+    eventClip: {fileID: 8300000, guid: e9a47798bef52774785172a05cc2aa92, type: 3}
+  - text: If I'm honest... Just deal with it.
+    fish: 0
+    eventClip: {fileID: 0}
+  - text: Dr. Gill, that's pretty mean of you... I'm sorry I called...
+    fish: 1
+    eventClip: {fileID: 8300000, guid: 3de64eba2e1a22a4394b9fa98e867dec, type: 3}
